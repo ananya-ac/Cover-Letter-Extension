@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "My First Extension",
+  "description": "A simple Chrome extension example",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  //  "background": {
+  //   "service_worker": "background.js"
+  // },
+  "permissions": [
+   "http://localhost/*",
+    "https://localhost/*"
+  ],
+  "host_permissions": [
+     "http://localhost/*",
+    "https://localhost/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src http://localhost:* https://localhost:*"
+  }
+}
