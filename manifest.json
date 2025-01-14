@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "My First Extension",
-  "description": "A simple Chrome extension example",
+  "name": "Cover Letter Extension",
+  "description": "A simple Chrome extension that generates a cover letter",
   "version": "1.0",
   "permissions": [
     "activeTab"
@@ -10,7 +10,6 @@
     "default_popup": "popup.html",
     "default_icon": "icon.png"
   },
-  
   "icons": {
     "16": "icon.png",
     "48": "icon.png",
@@ -20,11 +19,11 @@
   //   "service_worker": "background.js"
   // },
   "permissions": [
-   "http://localhost/*",
+    "http://localhost/*",
     "https://localhost/*"
   ],
   "host_permissions": [
-     "http://localhost/*",
+    "http://localhost/*",
     "https://localhost/*"
   ],
   "content_security_policy": {
