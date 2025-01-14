@@ -20,7 +20,9 @@
   // },
   "permissions": [
     "http://localhost/*",
-    "https://localhost/*"
+    "https://localhost/*",
+    "clipboard-write",
+    "downloads"
   ],
   "host_permissions": [
     "http://localhost/*",

@@ -9,9 +9,4 @@ You will need to set the OLLAMA_ORIGINS=chrome-extension://
 
 
 
-
-
-
-
-
 Future changes: Have an option for uploading a resume as part of the context.
